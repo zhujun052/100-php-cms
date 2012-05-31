@@ -1,0 +1,161 @@
+body{
+    font-size:12px;
+    margin: 0px;
+    padding:0px;
+}
+body, input, button, select, textarea{
+	font:12px/1.5 Tahoma,'Microsoft Yahei','Simsun'
+}
+ul{
+    list-style: none;
+}
+ul,li{
+    margin: 0px;
+    padding:0px;
+}
+a{
+    cursor: pointer;
+}
+.mgt_10{
+    margin-top:10px;
+}
+.hidden{
+    display:none;
+}
+#bodypanel{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    height:80px;
+    background: #BCE178;
+}
+.header .logo{
+    height: 60px;
+    width: 300px;
+}
+.header_body{
+    margin: 0 auto;
+    width: 960px;
+}
+.userlogin{
+    margin-top:10px;
+    width:200px;
+    float:right;
+}
+.userlogin ul li{
+    float:right;
+    margin-left:10px;
+}
+.userlogin a{
+    color:#000;
+    text-decoration: none;
+}
+
+.menudiv{
+    border:1px solid #D6D6D6;
+    width:100%;
+    display: table;
+}
+.menudiv .mhead{
+    height:25px;
+    line-height:25px;
+    background: #F1F2ED;
+    padding-left: 10px;
+}
+.menudiv .title{
+    height:25px;
+    line-height:25px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.menudiv .mbody{
+list-style: none;   
+padding-left:10px;
+padding-right:10px;
+}
+.menudiv .mbody li{
+    float:left;
+    margin-right: 10px;
+    height:25px;
+    line-height:25px;
+    white-space: nowrap;
+}
+
+.menu,.rig,.cent{
+    float:left;
+}
+.menu,.rig{
+    width:200px;
+}
+.cent{
+    width:450px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#bodypanel{
+    margin-top:10px;
+}
+
+.list{
+    border:1px solid #D6D6D6;
+    width:100%;
+    display: table;
+}
+.list .lhead{
+    height:25px;
+    line-height:25px;
+    background: #F1F2ED;
+    padding-left: 10px;
+}
+.list .lbody{
+list-style: none;   
+padding-left:10px;
+padding-right:10px;
+}
+.list .lbody li{
+    height:25px;
+    line-height:25px;
+}
+.container{
+    min-height: 480px;
+    
+}
+#navMenu ul{list-style: none outside none;margin:0px;padding:0px;}
+#navMenu, #navMenu li, #navMenu li.selected a, #navMenu li.selected span { background:url(../../member/images/menu.png) no-repeat;}
+#navMenu { background-color:#96D038;clear:both; }
+#navMenu li a, #navMenu li span { color:#FFF; }
+#navMenu li.selected span { color:#000; }
+#navMenu { display:block; overflow:hidden; height:35px; padding:0 5px; background-repeat:repeat-x;}
+#navMenu ul { float:left; display:block; overflow:hidden; position:relative;}
+#navMenu li { float:left; margin-left:-1px; background-position:0 -50px; position:relative;}
+#navMenu li a { float:left;}
+#navMenu li span { float:left; font-weight:bold; cursor:pointer; padding:0 15px;}
+#navMenu li a, #navMenu li span { line-height:35px; font-size:14px;}
+#navMenu li.selected { z-index:1;}
+#navMenu li.selected a, #navMenu li.selected a:hover { text-decoration:none; background-position:100% -150px;}
+#navMenu li.selected span { padding:0 8px; background-position:0 -100px;}
+
+
+.tb_list{border:1px solid #91CB2D;width:100%;border-collapse: collapse;}
+.tb_list tr td{height:30px;line-height:30px;text-align: center;border:1px solid #91CB2D;}
+.tb_list thead{background-color: #BCE178;}
+.tb_list a{text-decoration: none;color:#000;}
+.tb_list a:hover{text-decoration: underline;}
+
+.navbar{height:30px;line-height:30px;}
+.navbar a{text-decoration: none;color:#000;}
+.navbar a:hover{text-decoration: underline;}
+
+.exam_list{}
+.exam_list li{line-height:30px;}
+
+.list_container{margin-bottom: 10px;}
+
+.footer{
+    height:50px;
+    padding-top:20px;
+    text-align: center;
+    border-top:1px solid #D6D6D6;
+    background-color: #F1F2ED;
+}

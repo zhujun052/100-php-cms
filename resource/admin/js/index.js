@@ -1,0 +1,9 @@
+$(function(){
+    $('#accordion').accordion({collapsible:false});
+    $('#tabs').tabs();
+    tab('我的主页','index.php/admin/webmaster/myhomepage');
+    menuList('system');
+	 $(window).resize(function(){  
+		 $('#tabs').tabs('resize');
+	 });   
+});

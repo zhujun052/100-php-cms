@@ -1,0 +1,1 @@
+<div class="footer">Copyright©2011-2012 &nbsp;&nbsp;技术支持：中国百分百网</div>

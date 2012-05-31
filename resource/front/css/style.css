@@ -1,0 +1,127 @@
+body{
+    font-size:12px;
+    margin: 0px;
+    padding:0px;
+}
+body, input, button, select, textarea{
+	font:12px/1.5 Tahoma,'Microsoft Yahei','Simsun'
+}
+ul{
+    list-style: none;
+}
+ul,li{
+    margin: 0px;
+    padding:0px;
+}
+a{
+    cursor: pointer;
+}
+.hidden{
+    display:none;
+}
+#bodypanel{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    height:80px;
+    background: #BCE178;
+}
+.header .logo{
+    height: 60px;
+    width: 300px;
+}
+.header_body{
+    margin: 0 auto;
+    width: 960px;
+}
+.userlogin{
+    margin-top:10px;
+    width:200px;
+    float:right;
+}
+.userlogin ul li{
+    float:right;
+    margin-left:10px;
+}
+.userlogin a{
+    text-decoration: none;
+}
+
+.menudiv{
+    border:1px solid #D6D6D6;
+    width:100%;
+    display: table;
+}
+.menudiv .mhead{
+    height:25px;
+    line-height:25px;
+    background: #F1F2ED;
+    padding-left: 10px;
+}
+.menudiv .title{
+    height:25px;
+    line-height:25px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.menudiv .mbody{
+list-style: none;   
+padding-left:10px;
+padding-right:10px;
+}
+.menudiv .mbody li{
+    float:left;
+    margin-right: 10px;
+    height:25px;
+    line-height:25px;
+    white-space: nowrap;
+}
+
+.menu,.rig,.cent{
+    float:left;
+}
+.menu,.rig{
+    width:200px;
+}
+.cent{
+    width:450px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#bodypanel{
+    margin-top:10px;
+}
+
+.list{
+    border:1px solid #D6D6D6;
+    width:100%;
+    display: table;
+}
+.list .lhead{
+    height:25px;
+    line-height:25px;
+    background: #F1F2ED;
+    padding-left: 10px;
+}
+.list .lbody{
+list-style: none;   
+padding-left:10px;
+padding-right:10px;
+}
+.list .lbody li{
+    height:25px;
+    line-height:25px;
+}
+.container{
+    min-height: 480px;
+    
+}
+.footer{
+    height:50px;
+    padding-top:20px;
+    text-align: center;
+    border-top:1px solid #D6D6D6;
+    background-color: #F1F2ED;
+}
+

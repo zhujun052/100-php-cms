@@ -774,7 +774,7 @@ class CI_Loader {
 				}
 			}
 		}
-
+		
 		if ( ! $file_exists && ! file_exists($_ci_path))
 		{
 			show_error('Unable to load the requested file: '.$_ci_file);
